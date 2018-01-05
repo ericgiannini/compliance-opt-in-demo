@@ -42,7 +42,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P1g-5E-oSe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="profileImage" translatesAutoresizingMaskIntoConstraints="NO" id="P1g-5E-oSe">
                                 <rect key="frame" x="16" y="139" width="100" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="4nW-AL-HLt"/>
@@ -104,4 +104,7 @@
             <point key="canvasLocation" x="-433" y="116"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="profileImage" width="86" height="64"/>
+    </resources>
 </document>
